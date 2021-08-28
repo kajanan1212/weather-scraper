@@ -34,8 +34,12 @@
 <html lang="en">
     <head>
         <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="It is Weather Scraper.You can see the weather report of any city.You can get data about weather forecasts or analyze conditions in any location in the world.">
+        <meta name="keywords" content="Weather Scraper, Weather report, Weather, Weather Scraper">
+        <meta name="author" content="Kajanan Selvanesan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="e7jnCcT4FOZKlRE9nIAIy0LoFj-MLqAB2nD_S37FGgQ" />
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -91,18 +95,24 @@
                 margin-left: -20%;
                 margin-top: -10%;
             }
-
-            @media screen and (max-width: 800px){
+            
+            @media screen and (max-width: 1000px){
                 .mid{
                     top: 35%;
                     left: 32%;
                     width: 80%;
                 }
             }
+            
+            @media screen and (max-width: 800px){
+                .mid{
+                    left: 33%;
+                }
+            }
 
             @media screen and (max-width: 600px){
                 .mid{
-                    top:27%;
+                    top: 27%;
                     left: 25%;
                     width: 90%;
                 }
